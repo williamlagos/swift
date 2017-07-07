@@ -1,3 +1,10 @@
+/* Class and object samples and usage of Swift 4 Standard language and library *
+ * William Oliveira de Lagos <william.lagos@outlook.com>                       */
+
+
+/* Basic usage of classes and subclasses, with inheritance, override *
+ * functions, initializers, deinitializers and properties.           */
+
 class SimplePolygon {
   var sides = 0
   func desc() -> String {
@@ -76,6 +83,8 @@ var tri = Triangle(length: 5.0, name: "Simple triangle")
 print(tri.perimeter)
 tri.perimeter = 9.0
 print(tri.length)
+
+/* Special use of conditionals on properties to guarantee certain constraints */
 
 class TriangleSquare {
   var triangle: Triangle { willSet { square.length = newValue.length } }

@@ -1,3 +1,10 @@
+/* Structures samples and usage of Swift 4 Standard language and library *
+ * William Oliveira de Lagos <william.lagos@outlook.com>                 */
+
+
+/* Protocols and inheritance in base structures *
+ * (struct, class and enum).                    */
+
 protocol Example {
   var desc: String { get }
   mutating func adjust()
@@ -22,6 +29,8 @@ var b = SampleStruct()
 b.adjust()
 print(b.desc)
 
+/* Use of extensions on base types              */
+
 extension Int: Example {
   var desc: String { return "The number \(self)" }
   mutating func adjust() { self += 42 }
@@ -32,6 +41,9 @@ print(7.desc);
 let protocolValue: Example = a
 print(protocolValue.desc)
 // print(protocolValue.prop)
+
+/* Error handling and construction over do catch, try, and *
+ * enums to define error codes.                            */
 
 enum PrinterError: Error {
   case outOfPaPer
@@ -72,6 +84,9 @@ let printerFailure = try? send(job: 1885, toPrinter: "Never has Paper")
 print(printerSuccess ?? "failure")
 print(printerFailure ?? "failure")
 
+/* Use of defer operator to execute the last    *
+ * operation before return.                     */
+
 var fridgeOpen = false
 let fridgeContent = ["coffee", "eggs", "bacon"]
 
@@ -83,6 +98,8 @@ func fridgeContains(_ food: String) -> Bool {
 
 print(fridgeContains("bacon"))
 print(fridgeOpen)
+
+/* Use of generics and checkers on functions    */
 
 func array<Item>(repeating item: Item, times: Int) -> [Item] {
   var result = [Item]()

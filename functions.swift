@@ -1,3 +1,10 @@
+/* Function samples and usage of Swift 4 Standard language and library *
+ * William Oliveira de Lagos <william.lagos@outlook.com>               */
+
+
+/* Use of labels and second options on funcions signatures, *
+ * as well as return type inference over declaration.       */
+
 func hello(_ name: String, _ location: String) -> String {
   return "Hello \(name) at \(location)!"
 }
@@ -19,6 +26,9 @@ let tpl = tuples()
 print(tpl)
 print(tpl.y)
 print(tpl.2)
+
+/* Use of internal functions and referencing over composite *
+ * functions, as well as anonymous internal functions.      */
 
 func internals() -> ((Int) -> Int) {
   func incrementer(number: Int) -> Int {

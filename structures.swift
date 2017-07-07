@@ -1,3 +1,9 @@
+/* Structures samples and usage of Swift 4 Standard language and library *
+ * William Oliveira de Lagos <william.lagos@outlook.com>                 */
+
+
+/* Use cases of enumeration with functions, numbers and strings. */
+
 enum Rank: Int {
   case ace = 1
   case two, three, four, five, six, seven, eight, nine, ten
@@ -51,6 +57,9 @@ let hearts = Suit.hearts
 
 print(hearts)
 print(hearts.desc())
+
+/* Enums with composite values, and structs for combination with *
+ * simple enumerations for structure composition.                */
 
 enum Response {
   case result(String, String)
