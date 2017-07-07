@@ -92,3 +92,8 @@ print(trisq.square.length)
 
 trisq.square = Square(length: 50, name: "Larger square")
 print(trisq.triangle.length)
+
+let optionalSquare: Square? = Square(length: 2.5, name: "Optional square")
+let length = optionalSquare?.length
+
+print(length ?? 0.0)
