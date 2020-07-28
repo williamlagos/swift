@@ -16,6 +16,7 @@
 		3D1389EC24D0DC78001AC150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1389EA24D0DC78001AC150 /* LaunchScreen.storyboard */; };
 		3D1389F724D0DC79001AC150 /* ageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1389F624D0DC79001AC150 /* ageTests.swift */; };
 		3D138A0224D0DC79001AC150 /* ageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D138A0124D0DC79001AC150 /* ageUITests.swift */; };
+		3D138A1024D0DDF7001AC150 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D138A0F24D0DDF6001AC150 /* cachorro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3D1389FD24D0DC79001AC150 /* ageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D138A0124D0DC79001AC150 /* ageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ageUITests.swift; sourceTree = "<group>"; };
 		3D138A0324D0DC79001AC150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D138A0F24D0DDF6001AC150 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		3D1389DB24D0DC73001AC150 /* age */ = {
 			isa = PBXGroup;
 			children = (
+				3D138A0F24D0DDF6001AC150 /* cachorro.png */,
 				3D1389DC24D0DC73001AC150 /* AppDelegate.swift */,
 				3D1389DE24D0DC73001AC150 /* SceneDelegate.swift */,
 				3D1389E024D0DC73001AC150 /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D138A1024D0DDF7001AC150 /* cachorro.png in Resources */,
 				3D1389EC24D0DC78001AC150 /* LaunchScreen.storyboard in Resources */,
 				3D1389E924D0DC78001AC150 /* Assets.xcassets in Resources */,
 				3D1389E424D0DC73001AC150 /* Main.storyboard in Resources */,
