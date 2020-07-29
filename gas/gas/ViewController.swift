@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             if let gasoPrice = gasPrice.text {
                 let result = self.validateFields(alcPrice: alcoPrice, gasPrice: gasoPrice)
                 if result {
-                    self.calculateBestPrice(alcPrice: <#T##String#>, gasPrice: <#T##String#>)
+                    self.calculateBestPrice(alcPrice: alcoPrice, gasPrice: gasoPrice)
                 } else {
                     resultsLabel.text = "Digite os preços para calcular!"
                 }
