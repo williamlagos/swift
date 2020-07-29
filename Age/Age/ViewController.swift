@@ -11,12 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var age: UILabel!
+    @IBOutlet weak var ageInput: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     @IBAction func calculateAge(_ sender: Any) {
-        age.text = ""
+        let dogAge = Int(ageInput.text!)! * 7
+        age.text = "A idade do cachorro é: " + String(dogAge)
     }
     
 }
