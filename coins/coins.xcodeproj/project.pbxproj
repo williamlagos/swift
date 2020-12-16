@@ -13,6 +13,7 @@
 		3D4341362634830100B74211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4341342634830100B74211 /* Main.storyboard */; };
 		3D4341382634830500B74211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D4341372634830500B74211 /* Assets.xcassets */; };
 		3D43413B2634830500B74211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D4341392634830500B74211 /* LaunchScreen.storyboard */; };
+		3D434144263492D500B74211 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D434143263492D500B74211 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3D4341372634830500B74211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D43413A2634830500B74211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D43413C2634830500B74211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D434143263492D500B74211 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3D4341372634830500B74211 /* Assets.xcassets */,
 				3D4341392634830500B74211 /* LaunchScreen.storyboard */,
 				3D43413C2634830500B74211 /* Info.plist */,
+				3D434143263492D500B74211 /* DetailViewController.swift */,
 			);
 			path = coins;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				3D4341332634830100B74211 /* ViewController.swift in Sources */,
 				3D43412F2634830100B74211 /* AppDelegate.swift in Sources */,
 				3D4341312634830100B74211 /* SceneDelegate.swift in Sources */,
+				3D434144263492D500B74211 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
