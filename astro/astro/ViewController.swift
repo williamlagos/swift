@@ -53,6 +53,14 @@ class ViewController: UITableViewController {
         return celula
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let alertaController = UIAlertController(title: "Significado do signo", message: significadoSignos[indexPath.row], preferredStyle: .alert)
+        let acaoConfirmar = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertaController.addAction(acaoConfirmar)
+        present(alertaController, animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
