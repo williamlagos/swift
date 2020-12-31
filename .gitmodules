@@ -1,3 +1,6 @@
 [submodule "gist"]
 	path = gist
 	url = git@github.com:williamlagos/gist
+[submodule "foodtracker"]
+	path = foodtracker
+	url = git@github.com:williamlagos/foodtracker
