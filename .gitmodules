@@ -1,5 +1,5 @@
 [submodule "gist"]
-	path = gist
+	path = projects/gist
 	url = git@github.com:williamlagos/gist
 [submodule "foodtracker"]
 	path = foodtracker
